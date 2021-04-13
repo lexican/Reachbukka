@@ -1,0 +1,27 @@
+#work {
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #fafafa !important;
+  h2 {
+    font-size: 24px;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+  }
+  h3 {
+    font-size: 18px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 10px;
+  }
+  @media (max-width: 544px) {
+    padding-left: 0px !important;
+    padding-right: 00px !important;
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+#edit-profile{
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 100vh !important;
+    padding-top: 13vh !important;
+
+   /*  height: auto; */
+
+    #main-container{
+        background: #ebedef;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    #sec-1{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        p:nth-child(1){
+            margin-bottom: 0 !important;
+            text-transform: capitalize;
+            font-size: 18px;
+            font-family: "Roboto";
+        }
+        p:nth-child(2){
+            margin-bottom: 0 !important;
+            text-transform: capitalize;
+            font-size: 14px;
+            font-family: "Roboto";
+        }
+    }
+
+    #sec-2{
+        background-color: rgb(255, 255, 255);
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    #img-avatar{
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50% !important;
+        background: transparent !important;
+        margin: 0 auto;
+    }
+
+    .profile-pic_2 {
+        display: block;
+        height: 150px !important;
+        width: 150px !important;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center !important;
+        background-size: cover !important;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url("../../assets/images/user.jpg") !important;
+      }
+
+}

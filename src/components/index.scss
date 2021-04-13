@@ -1,0 +1,78 @@
+#navbarcontainer {
+  .navbar {
+    transition: all 1s ease;
+    font-family: "Roboto", sans-serif;
+    width: 100% !important;
+    z-index: 1;
+    /*     box-shadow: 0 8px 6px -6px #ebebeb; */
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    padding: 0.5rem 40px 0.5rem 40px;
+    color: #797979 !important;
+  }
+
+  #nav.navbar{
+    background: rgb(0, 0, 0) !important;
+  }
+
+
+
+  .navbar.active {
+    transition: all 1s ease;
+    background: #000000 !important;
+  }
+  .navbar-brand {
+    font-family: "Mr Dafoe", cursive;
+    font-size: 36px;
+    color: #ff0033 !important;
+    /*     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+      url("../assets/images/contact.jpg"); */
+  }
+
+  #logo {
+    height: 50px;
+    width: 140px;
+    background-position: center !important;
+    background-size: cover !important;
+    background: url("../assets/images/logo.png");
+  }
+
+  a.nav-link-active {
+    color: #ff0033 !important;
+    font-weight: 800;
+  }
+  .nav-link {
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 16px;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff !important;
+  }
+  .nav-link:hover {
+    color: #ff0033 !important;
+  }
+  .badge {
+    display: inline-block;
+    min-width: 1em; /* em unit */
+    /*     padding: .3em; */ /* em unit */
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    background: #1779ba;
+    color: #fefefe;
+  }
+  .nav-user {
+    padding: 4px 16px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0.5rem 20px 0.5rem 20px !important;
+  }
+}

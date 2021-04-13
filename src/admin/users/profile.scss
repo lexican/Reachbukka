@@ -1,0 +1,40 @@
+#profile-admin{
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .displayname{
+        font-size: 22px;
+        color: #212121;
+        font-weight: 500;
+    }
+    .username{
+        font-size: 18px;
+        color: #212121;
+        font-weight: 500;
+    }
+    .email{
+        font-size: 18px;
+        color: #212121;
+        font-weight: 500;
+    }
+    .bio{
+        font-size: 18px;
+        color: #212121;
+        font-weight: 500;
+    }
+
+    .admin{
+        color: #1b5e20;
+        font-weight: bold;
+    }
+
+    .user{
+        color: #f57f17;
+        font-weight: bold;
+    }
+
+}

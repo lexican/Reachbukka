@@ -1,0 +1,190 @@
+/* Position and sizing of burger button */
+ .bm-burger-button {
+  display: none;
+  position: relative;
+  width: 36px;
+  height: 24px;
+  top: 0;
+  display: none;
+}
+
+#logo{
+  height: 50px;
+  width: 140px;
+  background-position: center !important;
+  background-size: cover !important;
+  background: url("../assets/images/logo.png");
+}
+
+/* Color/shape of burger icon bars */
+ .bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+ .bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-burger-bars {
+  background: #ffffff;
+}
+/* Color/shape of close button cross */
+ .bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+ .bm-menu-wrap {
+  top: 0 !important;
+  left: 0px !important;
+  position: fixed;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+/* General sidebar styles */
+ .bm-menu {
+  background: #ffffff;
+  padding: 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  left: 0px !important;
+  top: 0px !important;
+}
+
+.dropdown-menu {
+  transform: translate3d(-3%, 0, 0);
+}
+
+.side-navbar-body {
+  padding: 0px 16px 20px 16px;
+  background-color: white;
+  overflow: hidden !important;
+}
+.sidenav-items:first-child {
+  border-top: 1px solid #dfdfdf;
+}
+.sidenav-items {
+  display: block;
+  color: #333;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 1em;
+  text-decoration: none;
+  font: normal 15px "GothamRoundedMedium";
+}
+
+.side-navbar-brand {
+  height: 11vh !important;
+  padding: 0.38em 0;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 36px;
+  margin-left: 20px;
+  /* border-bottom: 1px solid #dfdfdf; */
+  /* box-shadow: 0 8px 6px -6px #ebebeb !important; */
+}
+.side-navbar-brand a {
+  text-decoration: none !important;
+}
+
+.login,
+.signup {
+  font-size: 0.9rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.login {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: #ff0033 !important;
+  margin: 3px 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: 600;
+  border-radius: 4px !important;
+}
+
+.signup {
+  display: block;
+  text-decoration: none;
+  color: white;
+  color: #ff0033 !important;
+  margin: 3px 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid #ff0033;
+  border-radius: 4px !important;
+  font-weight: 600;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #1d1d1d !important;
+  text-decoration: none;
+  background-color: inherit !important;
+}
+.dropdown-item {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  padding: 0.25rem 16px;
+}
+
+.dropdown-menu {
+  transform: translate3d(-3%, 0, 0);
+}
+
+@media (max-width: 767px) {
+   .bm-burger-button {
+    display: block;
+  }
+
+   .dropdown-menu.show {
+    display: none !important;
+  }
+
+   .hiw h3 {
+    font-size: 10px;
+    padding: 0 2px;
+  }
+
+  #cart .delivery-hd {
+    padding: 10px 14px;
+    font-size: 12px !important;
+    justify-content: flex-end !important;
+  }
+   #cart .delivery-hd-1 {
+    display: none !important;
+  }
+}

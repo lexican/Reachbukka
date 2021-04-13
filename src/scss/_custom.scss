@@ -1,0 +1,43 @@
+// Here you can add other styles
+
+@font-face {
+    font-family: "EuclidFlex";
+    src: local("EuclidFlex"),
+      url('../assets/fonts/EuclidFlex-Light.ttf') format("truetype");
+  }
+
+  .primary-color {
+    color: #ff0033 !important;
+  }
+
+  .error {
+    color: red;
+  }
+
+  .btn-pri {
+    color: #fff;
+    font-family: "Roboto" sans-serif;
+    background: #44337a;
+    border: 1px solid #319795;
+    border-radius: 7px;
+  }
+
+  #actions span{
+    cursor: pointer;
+  }
+  
+  #actions span:hover{
+    cursor: pointer;
+    background: #b1b1b1;
+  }
+
+  .form-error{
+    color: red;
+  }
+
+  #create-product img{
+      width: 200px;
+      height: 200px;
+    
+  }
+

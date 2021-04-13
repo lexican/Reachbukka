@@ -1,0 +1,100 @@
+.menutab{
+     .menu-item {
+        padding: 0 40px;
+        margin: 5px 10px;
+        user-select: none;
+        cursor: pointer;
+        outline: none !important;
+      }
+       .menu-item-wrapper.active {
+        border: none !important;
+        outline: none;
+      }
+      
+       .Mw2I7.active {
+        background-color: #ff0053;
+        color: #fff;
+        border: none;
+        outline: none;
+      }
+      
+      .scroll-menu-arrow {
+        padding: 0px !important;
+        cursor: pointer;
+      }
+      
+       .tab-link {
+        vertical-align: top;
+        color: black;
+        display: inline-block;
+        white-space: nowrap;
+        font-size: medium;
+        font-weight: normal;
+        margin-right: 4px;
+        cursor: pointer;
+      }
+       .Mw2I7 {
+        border: 1px solid #dfe1e5;
+        border-radius: 10px;
+        box-sizing: border-box;
+        color: #3c4043;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 4px 15px;
+        position: relative;
+        white-space: nowrap;
+      }
+      
+       .arrow-next,  .arrow-prev{
+        background-color: #cacaca;
+        padding: 6px 10px !important;
+        font-size: 24px;
+        border-radius: 50%;
+      }
+
+
+       .arrow-next{
+          -webkit-border-radius: 36px 0 0 36px;
+          /* border-radius: 36px 0 0 36px; */
+          margin: 0 auto;
+          right: 0;
+          background-color: #fff;
+          -webkit-box-shadow: -1px 0 6px rgba(0,0,0,0.2);
+          box-shadow: -1px 0 6px rgba(0,0,0,0.2);
+          cursor: pointer;
+          display: block;
+          height: 52px;
+          margin: auto;
+          outline: none;
+          overflow: hidden;
+          visibility: inherit;
+          width: 36px;
+          z-index: 1;
+          -webkit-user-select: none;
+      }
+      
+       .arrow-prev{
+      
+      -webkit-border-radius: 0 36px 36px 0;
+          border-radius: 0 36px 36px 0;
+          left: 0;
+          margin: 0 auto;
+      
+        background-color: #fff;
+        bottom: 0;
+        -webkit-box-shadow: -1px 0 6px rgba(0,0,0,0.2);
+        box-shadow: -1px 0 6px rgba(0,0,0,0.2);
+        cursor: pointer;
+        display: block;
+        height: 52px;
+        margin: auto;
+        outline: none;
+        overflow: hidden;
+        visibility: inherit;
+        width: 36px;
+        z-index: 1;
+        -webkit-user-select: none;
+      
+      }
+      
+}
